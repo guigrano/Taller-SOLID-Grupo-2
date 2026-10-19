@@ -9,6 +9,7 @@ public class Universidad {
         this.cantProfesores = cantProfesores;
     }
 
+    // Cumpliendo SRP
     public void matricularEstudiante(Estudiante estudiante) {
         System.out.println("El estudiante " + estudiante.getNombre() + " se ha matriculado en la universidad " + nombre + ".");
     }

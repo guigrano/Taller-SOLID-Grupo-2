@@ -8,3 +8,5 @@ public class EstudianteAcademico extends Estudiante implements AyudanteAcademico
         System.out.println("El estudiante " + getNombre() + " enseña la materia " + materia);
     }
 }
+
+
