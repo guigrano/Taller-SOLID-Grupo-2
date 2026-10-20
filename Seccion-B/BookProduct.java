@@ -3,7 +3,7 @@ public class BookProduct implements Physical, Product {
     private double price;
     private double weight;
 
-    public BookProduct(String name, double price) {
+    public BookProduct(String name, double price, double weight) {
         this.name = name;
         this.price = price;
         this.weight = weight;

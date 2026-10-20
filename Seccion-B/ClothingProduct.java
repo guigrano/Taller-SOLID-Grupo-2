@@ -4,7 +4,7 @@ public class ClothingProduct implements Physical, Product {
     private double price;
     private double weight;
 
-    public ClothingProduct(String name, double price) {
+    public ClothingProduct(String name, double price, double weight) {
         this.name = name;
         this.price = price;
         this.weight = weight;
