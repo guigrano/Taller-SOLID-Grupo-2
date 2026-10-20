@@ -17,7 +17,6 @@ public class DigitalProduct implements Product {
         return price;
     }
 
-    @Override
     public String getType() {
         return "digital";
     }
