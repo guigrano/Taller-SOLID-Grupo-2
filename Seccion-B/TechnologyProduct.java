@@ -1,4 +1,4 @@
-public class TechnologyProduct {
+public class TechnologyProduct implements Physical, Product {
 
     private String name;
     private double price;
